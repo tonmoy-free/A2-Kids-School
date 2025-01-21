@@ -117,6 +117,11 @@ marquee{
     gap: 28PX;
     margin-bottom: 80px;
 }
+.standard-card{
+    background-color: #c1c0ff;
+    border-radius: 15px;
+    padding: 36px 28px;
+}
 .card-tittle{
     font-weight: 700;
     font-size: 1.5rem;
@@ -124,6 +129,7 @@ marquee{
     margin-bottom: 33px;
 }
 .card-description{
+    width: 310px;
     font-weight: 500;
     font-size: 1rem;
     color: #808080;
@@ -134,8 +140,11 @@ marquee{
     font-size: 1rem;
 }
 .standard-nav{
+    max-width: 1160px;
+    margin: 0 auto;
     justify-content: center;
     gap: 10px;
+    margin-right: 170px;
 }
 .btn-standard-nav{
     padding: 15px 18px;
@@ -143,11 +152,11 @@ marquee{
     background-color: #FEA301;
     border: none;
 }
-.btn-link{
+ .btn-link{
    color: white;
    font-weight: 700;
    font-size: 1rem;
-}
+ }
 
 
 
@@ -191,6 +200,35 @@ marquee{
     }
     .btn-banner{
         padding: 15px 34px;
+    }
+
+    /* Standard Curriculum  mobile style */
+    .section-tittle{
+        font-size: 1.625rem;
+    }
+    .standard-cards{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .card-tittle{
+        font-size: 1rem;
+        margin-bottom: 22px;
+    }
+    .card-description{
+        /* width: 100%;  */
+        font-size: .63rem;
+        width: 193px; 
+        padding-left: 25px;
+        margin-bottom: 22px;
+    }
+    .standard-cards{
+        margin: 36px 20px;
+    }
+    .card-link{
+        font-size: .63rem;
+    }
+    .standard-nav{
+        display: none;
     }
 
 }
