@@ -145,9 +145,10 @@ marquee{
     justify-content: center;
     gap: 10px;
     margin-right: 10px;
+    margin-bottom: 60px;
 }
 .btn-standard-nav{
-    padding: 15px 18px;
+    padding: 14px 18px;
     border-radius: 50%;
     background-color: #FEA301;
     border: none;
@@ -158,6 +159,13 @@ marquee{
    font-size: 1rem;
  }
 
+ /* our-stories style */
+ .our-stories{
+    max-width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+ }
 
 
 @media screen and (max-width: 576px) {
