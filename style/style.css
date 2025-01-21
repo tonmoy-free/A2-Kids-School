@@ -178,6 +178,7 @@ marquee{
  .our-stories-img-left{
     position: relative;
     background-color: #c1c0ff;
+    border-radius: 16px;
  }
  .our-stories-img-left > img{
     border-radius: 16px 16px 0px 0px;
@@ -190,6 +191,8 @@ marquee{
  .text-box{
     padding: 34px 38px;
  }
+
+  
  .date1{
     font-family: "Raleway", serif;
     position: absolute;
@@ -207,6 +210,7 @@ marquee{
  .our-stories-img-right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
  }
  .img-name{
     border-radius: 16px 16px 0px 0px;
@@ -214,6 +218,53 @@ marquee{
  .btn-stori{
     text-align: center;
     margin-top: 80px;
+    margin-bottom: 60px;
+ }
+ .img-right{
+    position: relative;
+    background-color: #c1c0ff;
+    border-radius: 16px;
+ }
+ .date2{
+    font-family: "Raleway", serif;
+    position: absolute;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1rem;
+    padding: 14px 19px;
+    border-radius: 50px;
+    background-color: #95B226;
+    color: white;
+    top: 157px;
+    left: 38px;
+ }
+ .date3{
+    font-family: "Raleway", serif;
+    position: absolute;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1rem;
+    padding: 14px 19px;
+    border-radius: 50px;
+    background-color: #5D58F0;
+    color: white;
+    top: 157px;
+    left: 38px;
+ }
+ .img-tittle{
+    /* margin-top: 38px; */
+    padding: 30px 40px;
+
+ }
+
+ /* footer style */
+ footer{
+    background-color: #01ACFD;
+ }
+ .footer-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 519px;
  }
 
 
@@ -288,5 +339,18 @@ marquee{
     .standard-nav{
         display: none;
     }
+
+    /* our-stories mobile style */
+    .our-stories-img-left{
+        display: none;
+    }
+    .our-stories-img-right{
+        grid-template-columns: repeat(1, 2fr);
+
+    }
+    .img-name{
+        width: 100%;
+    }
+
 
 }
