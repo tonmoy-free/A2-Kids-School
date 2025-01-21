@@ -217,8 +217,9 @@ marquee{
     .card-description{
         /* width: 100%;  */
         font-size: .63rem;
-        width: 193px; 
-        padding-left: 34px;
+        width: 100%;
+        /* width: 193px; 
+        padding-left: 34px; */
         margin-bottom: 22px;
     }
     .standard-cards{
