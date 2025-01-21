@@ -28,7 +28,7 @@ a {
 .navbar {
     max-width: 1440px;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -55,6 +55,18 @@ a {
     font-weight: 700;
     font-size: 1.25rem;
 }
+.link1{
+    color: #FEA301;
+}
+.link2{
+    color: #01ACFD;
+}
+.link3{
+    color: #05D4DF;
+}
+.link4{
+    color: #5D58EF;
+}
 
 .menu-icon {
     display: none;
@@ -63,6 +75,14 @@ marquee{
     color: black;
     font-weight: 500;
 }
+
+/* banner style */
+.banner{
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
 
 @media screen and (max-width: 576px) {
 /* *{margin: 0 ;
