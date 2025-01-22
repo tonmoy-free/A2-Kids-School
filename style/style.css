@@ -541,11 +541,16 @@ footer {
     .our-stories-img-left {
         display: none;
     }
-
     .our-stories-img-right {
-        width: 100%;
-        grid-template-columns: repeat(2,1fr)
-        padding-right: calc(100%-20px); 
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .date2 {
+        top: 188px;
+        left: 52px;
+    }
+    .date3 {
+        top: 188px;
+        left: 52px;
     }
 
     .img-name {
@@ -582,4 +587,5 @@ footer {
         grid-template-columns: repeat(auto-fit,(50px, 1fr)); 
         grid-template-rows: repeat(2, 1fr); 
     } */
+
 }
