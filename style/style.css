@@ -270,12 +270,50 @@ marquee{
     justify-content: space-between;
  }
  .footer-logo > img{
-   
+   margin-top: 24px; 
+   width: 82px;
+   height: 84px;
+ }
+ .footer-option{
+    text-align: left;
+ }
+ .footer-option > ul{
+    text-align: left;
+    padding-left: 0px;
+ }
+ .footer-option-tittle{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
  }
  .footer-img-tittle{
     font-weight: 700;
-    font-size: 2.62rem;
+    font-size: 2.50rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
  }
+ .footer-li{
+    list-style: none;
+    color: white;
+    padding-bottom: 20px;
+    
+ }
+ .footer-link{
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+ }
+.footer-social-tittle{
+    font-weight: 700;
+    font-size: 1.625rem;
+    margin-bottom: 32px;
+}
+.footer-social-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
 
 
 
@@ -363,5 +401,8 @@ marquee{
         width: 100%;
     }
 
-
+    /* footer mobile style */
+    .footer-container{
+        flex-direction: column;
+    }
 }
