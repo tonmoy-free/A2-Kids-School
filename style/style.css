@@ -144,19 +144,22 @@ marquee {
 }
 
 /* Standard Curriculum style */
+.standerd-section{
+    background-image: url(../assets/bg.png);
+}
 .standard-cur {
     max-width: 1160px;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .section-tittle {
-    font-weight: 700;
-    font-size: 2.87rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
     padding-top: 55px;
     padding-bottom: 55px;
 }
@@ -256,14 +259,8 @@ marquee {
     margin-top: 60px;
 }
 
-.section-tittle {
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
 .our-stories-img {
-    margin-top: 80px;
+    margin-top: 50px;
     justify-content: space-between;
     gap: 18px;
 }
