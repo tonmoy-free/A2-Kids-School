@@ -39,8 +39,6 @@ a {
     background-color: white;
     left: 50%;
     transform: translateX(-50%);
-
-
 }
 
 .logo {
@@ -545,8 +543,9 @@ footer {
     }
 
     .our-stories-img-right {
-        grid-template-columns: repeat(1, 2fr);
-
+        width: 100%;
+        grid-template-columns: repeat(2,1fr)
+        padding-right: calc(100%-20px); 
     }
 
     .img-name {
@@ -577,4 +576,10 @@ footer {
         justify-content: left;
         gap: 9px;
     }
+
+    /* .second{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,(50px, 1fr)); 
+        grid-template-rows: repeat(2, 1fr); 
+    } */
 }
