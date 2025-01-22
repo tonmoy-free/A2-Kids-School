@@ -30,6 +30,16 @@ a {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    /* destop a nav bar fixed korar code */
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+
+
 }
 
 .logo {
@@ -142,14 +152,17 @@ marquee {
     border-radius: 15px;
     padding: 36px 28px;
 }
-.color-bg1{
-    background: linear-gradient(to bottom, #DEF5FF 0%, #fdf9f9 100%);  
+
+.color-bg1 {
+    background: linear-gradient(to bottom, #DEF5FF 0%, #fdf9f9 100%);
 }
-.color-bg2{
-    background: linear-gradient(to bottom, #FFF4DC 0%, #fdf9f9 100%);  
+
+.color-bg2 {
+    background: linear-gradient(to bottom, #FFF4DC 0%, #fdf9f9 100%);
 }
-.color-bg3{
-    background: linear-gradient(to bottom, #F2E8FF 0%, #fdf9f9 100%);  
+
+.color-bg3 {
+    background: linear-gradient(to bottom, #F2E8FF 0%, #fdf9f9 100%);
 }
 
 .card-tittle {
