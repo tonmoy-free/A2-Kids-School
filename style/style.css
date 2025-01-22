@@ -267,7 +267,8 @@ marquee {
 
 .our-stories-img-left {
     position: relative;
-    background-color: #eeeefa;
+    /* background-color: #eeeefa; */
+    background-color: white;
     border-radius: 16px;
     transition: 1s;
 }
@@ -325,7 +326,8 @@ marquee {
 
 .img-right {
     position: relative;
-    background-color: #eeeefa;
+    /* background-color: #eeeefa; */
+    background-color: white;
     border-radius: 16px;
     transition: 1s;
 }
