@@ -22,6 +22,7 @@ a {
     font-size: 1.25rem;
     border-radius: 12px;
     border: none;
+    transition: 2s;
 }
 
 /* navbar style */
@@ -51,6 +52,7 @@ a {
     font-weight: 700;
     font-size: 2rem;
     color: #111111;
+    transition: 2s;
 }
 
 .menu-items {
@@ -64,6 +66,7 @@ a {
 .nav-li-link {
     font-weight: 700;
     font-size: 1.25rem;
+    transition: 1.5s;
 }
 
 .link1 {
@@ -93,6 +96,20 @@ marquee {
 }
 .btn-primary:hover{
     background-color: #01ACFD;
+    transition: 1s;
+}
+.nav-li-link:hover{
+    color: #5D58F0;
+    transition: 1s;
+    text-decoration: underline;
+    font-size: 1.26rem;
+    font-weight: 900;
+    /* padding: 8px 10px;
+    background-color: #01ACFD;
+    border-radius: 12px; */
+}
+.logo-tittle:hover{
+    color: #01ACFD;
     transition: 1s;
 }
 
@@ -157,6 +174,12 @@ marquee {
        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,175,233,1) 100%); */
     border-radius: 15px;
     padding: 36px 28px;
+    transition: 1s;
+}
+.standard-card:hover{
+    transform: translateY(-15px);
+    transition: 1s;
+    cursor: pointer;
 }
 
 .color-bg1 {
@@ -190,6 +213,11 @@ marquee {
     font-weight: 700;
     font-size: 1rem;
 }
+.card-link:hover {
+    font-size: 1.1rem;
+    text-decoration: underline;
+    transition: 1s;
+}
 
 .standard-nav {
     max-width: 1160px;
@@ -205,6 +233,11 @@ marquee {
     border-radius: 50%;
     background-color: #FEA301;
     border: none;
+    transition: 2s;
+}
+.btn-standard-nav:hover {
+    background-color: #01ACFD;
+    transition: 1s;
 }
 
 .btn-link {
@@ -237,6 +270,12 @@ marquee {
     position: relative;
     background-color: #eeeefa;
     border-radius: 16px;
+    transition: 1s;
+}
+.our-stories-img-left:hover{
+    transform: translateY(-15px);
+    transition: 1s;
+    cursor: pointer;
 }
 
 .our-stories-img-left>img {
@@ -289,6 +328,12 @@ marquee {
     position: relative;
     background-color: #eeeefa;
     border-radius: 16px;
+    transition: 1s;
+}
+.img-right:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+    cursor: pointer;
 }
 
 .date2 {
@@ -379,6 +424,12 @@ footer {
     color: white;
     font-weight: 500;
     font-size: 1.25rem;
+    transition: 1s;
+}
+.footer-link:hover{
+    color: #FEA301;
+    transition: 1s;
+    text-decoration: underline;
 }
 
 .footer-social-tittle {
@@ -391,6 +442,14 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+}
+.ho{
+    transition: 1s;
+}
+.ho:hover{
+    transition: 1s;
+    text-decoration: underline;
+    transform: translateY(-6px);
 }
 
 
