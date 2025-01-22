@@ -456,7 +456,7 @@ footer {
 
     /* *{margin: 0 ;
     padding: 0;
-} */
+    } */
     .logo-tittle,
     .menu-items,
     .button {
@@ -545,12 +545,17 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
     .date2 {
-        top: 219px;
-        left: 28px;
+    font-size: .57rem;
+    padding: 7px 12px;
+    top: 103px;
+    left: 26px;
     }
+    
     .date3 {
-        top: 219px;
-        left: 28px;
+    font-size: .57rem;
+    padding: 7px 12px;
+    top: 103px;
+    left: 26px;
     }
 
     .img-name {
