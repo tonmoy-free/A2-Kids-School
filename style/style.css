@@ -87,6 +87,7 @@ a {
 }
 
 marquee {
+    margin-bottom: -106px;
     color: black;
     font-weight: 500;
 }
@@ -96,6 +97,7 @@ marquee {
     max-width: 1160px;
     margin: 0 auto;
     justify-content: space-between;
+    margin-top: 106px;
 }
 
 .banner-tittle {
