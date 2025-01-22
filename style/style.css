@@ -245,11 +245,15 @@ marquee {
 }
 
 /* our-stories style */
+.our-stories-section{
+ /* background-image: url(../assets/bg.png); */
+ background: linear-gradient(white,rgba(255, 183, 1, 0.521)),url('../assets/bg1.png');
+
+}
 .our-stories {
     max-width: 1160px;
     margin: 0 auto;
     margin-top: 60px;
-    background-image: url(../assets/bg.png);
 }
 
 .section-tittle {
@@ -556,6 +560,12 @@ footer {
     padding: 7px 12px;
     top: 103px;
     left: 26px;
+    }
+    .img-tittle{
+    padding: 0px 22px; 
+    font-size: .60rem;
+    font-weight: 700;
+    margin-top: 20px;
     }
 
     .img-name {
