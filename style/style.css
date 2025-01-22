@@ -91,6 +91,10 @@ marquee {
     color: black;
     font-weight: 500;
 }
+.btn-primary:hover{
+    background-color: #01ACFD;
+    transition: 1s;
+}
 
 /* banner style */
 .banner {
